@@ -1,5 +1,6 @@
 # RepoRanger and Tester Documentation
 
+
 RepoRanger is a Qt/C++ application designed for monitoring and managing repository updates. This document provides instructions on building and running RepoRanger, as well as using the accompanying Tester for Linux environments.
 
 ## Getting Started
