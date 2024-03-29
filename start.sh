@@ -1,4 +1,5 @@
 #!/bin/bash
+
 ./stop.sh
 git pull
 
