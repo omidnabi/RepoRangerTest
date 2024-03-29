@@ -1,5 +1,5 @@
 #!/bin/bash
-
+./stop.sh
 git pull
 
 cd ./src
