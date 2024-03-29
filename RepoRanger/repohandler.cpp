@@ -26,7 +26,8 @@ RepoHandler::RepoHandler(QObject *parent) : QObject(parent) {
 
 
 void RepoHandler::loadConfiguration() {
-    QString configPath = QCoreApplication::applicationDirPath() + "/../managerConfig.json";
+    QDir appDir(QCoreApplication::applicationDirPath());
+    QString configPath = appDir.absoluteFilePath("../managerConfig.json");
     ManagerConfig loadedConfig = ConfigParser::parseManagerConfig(configPath);
     if (loadedConfig.githubRepo.isEmpty()) {
         qCritical() << "GitHub repository URL is missing in manager config.";
