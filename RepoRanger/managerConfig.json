@@ -1,0 +1,8 @@
+{
+  "githubRepo": "https://github.com/omidnabi/RepoRangerTest.git",
+  "githubBranch": "main",
+  "projectStartScript": "/home/omidnabi/QtProjects/RepoRangerTest/start.sh",
+  "projectConfigPath": "/home/omidnabi/QtProjects/RepoRangerTest/config.json",
+  "checkFrequency": 60000
+}
+
