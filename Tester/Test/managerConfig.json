@@ -1,6 +1,0 @@
-{
-    "githubRepo": "https://github.com/llharry/example",
-    "githubBranch": "main",
-    "projectStart": "npm run start",
-    "projectConfig": "./config.json"
-}
