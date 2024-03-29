@@ -1,4 +1,4 @@
-//Test program
+//Test program for Repo Ranger
 
 #include <fstream>
 #include <iostream>
