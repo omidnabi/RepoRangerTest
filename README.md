@@ -55,13 +55,16 @@ Configure RepoRanger using the `managerConfig.json` file provided in the `RepoRa
 The Tester is intended for Linux environments to facilitate RepoRanger testing. Follow these steps to use the Tester:
 
 1. Confirm RepoRanger is configured and running.
-2. Navigate to the `Tester` directory within `RepoRangerTest`.
-3. Start the testing process using `start.sh`:
+2. Start RepoRanger process
+3. Navigate to the `Tester` directory within `RepoRangerTest`.
+4. Start the testing process using `start.sh`:
 
 ```sh
 ./start.sh
 ```
-
 Make `start.sh` executable with `chmod +x start.sh`.
+
+5. Make changes to the tester repo to trigger an update. 
+
 
 
